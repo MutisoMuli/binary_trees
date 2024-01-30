@@ -66,7 +66,8 @@ size_t binary_tree_height(const binary_tree_t *tree);
 /* Prototypes for 10-binary_tree_depth.c */
 size_t binary_tree_depth(const binary_tree_t *tree);
 
-
+/* Prototypes for 11-binary_tree_size.c */
+size_t binary_tree_size(const binary_tree_t *tree);
 
 
 
