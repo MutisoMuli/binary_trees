@@ -57,7 +57,8 @@ void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int));
 /* Prototypes for 7-binary_tree_inorder.c */
 void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int));
 
-
+/* Prototypes for 8-binary_tree_postorder.c */
+void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int));
 
 
 
