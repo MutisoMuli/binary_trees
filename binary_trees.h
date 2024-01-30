@@ -51,10 +51,11 @@ int binary_tree_is_leaf(const binary_tree_t *node);
 /* Prototypes for 5-binary_tree_is_root.c */
 int binary_tree_is_root(const binary_tree_t *node);
 
-/* Prototypes for -binary_tree_preorder.c */
+/* Prototypes for 6-binary_tree_preorder.c */
 void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int));
 
-
+/* Prototypes for 7-binary_tree_inorder.c */
+void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int));
 
 
 
