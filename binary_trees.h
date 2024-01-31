@@ -75,6 +75,53 @@ size_t binary_tree_leaves(const binary_tree_t *tree);
 /* Prototypes for 13-binary_tree_nodes.c */
 size_t binary_tree_nodes(const binary_tree_t *tree);
 
+/* Prototypes for 14-binary_tree_balance.c */
+int binary_tree_balance(const binary_tree_t *tree);
+
+/* Prototypes for 15-binary_tree_is_full.c */
+int binary_tree_is_full(const binary_tree_t *tree);
+
+/* Prototypes for 16-binary_tree_is_perfect.c */
+int binary_tree_is_perfect(const binary_tree_t *tree);
+
+/* Prototypes for 17-binary_tree_sibling.c */
+binary_tree_t *binary_tree_sibling(binary_tree_t *node);
+
+/* Prototypes for 18-binary_tree_uncle.c */
+binary_tree_t *binary_tree_uncle(binary_tree_t *node);
+
+/* Prototypes for 13-binary_tree_nodes.c */
+
+
+/* Prototypes for 13-binary_tree_nodes.c */
+
+
+/* Prototypes for 13-binary_tree_nodes.c */
+
+
+/* Prototypes for 13-binary_tree_nodes.c */
+
+
+/* Prototypes for 13-binary_tree_nodes.c */
+
+
+/* Prototypes for 13-binary_tree_nodes.c */
+
+
+/* Prototypes for 13-binary_tree_nodes.c */
+
+
+/* Prototypes for 13-binary_tree_nodes.c */
+
+
+/* Prototypes for 13-binary_tree_nodes.c */
+
+
+
+
+
+
+
 
 
 #endif
