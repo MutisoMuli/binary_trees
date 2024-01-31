@@ -90,39 +90,64 @@ binary_tree_t *binary_tree_sibling(binary_tree_t *node);
 /* Prototypes for 18-binary_tree_uncle.c */
 binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 
-/* Prototypes for 13-binary_tree_nodes.c */
+/* Prototypes for 100-binary_trees_ancestor.c */
+binary_tree_t *binary_trees_ancestor(const binary_tree_t *first, const binary_tree_t *second);
 
+/* Prototypes for 101-binary_tree_levelorder.c */
+void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int));
 
-/* Prototypes for 13-binary_tree_nodes.c */
+/* Prototypes for 102-binary_tree_is_complete.c */
+int binary_tree_is_complete(const binary_tree_t *tree);
 
+/* Prototypes for 103-binary_tree_rotate_left.c */
+binary_tree_t *binary_tree_rotate_left(binary_tree_t *tree);
 
-/* Prototypes for 13-binary_tree_nodes.c */
+/* Prototypes for 104-binary_tree_rotate_right.c */
+binary_tree_t *binary_tree_rotate_right(binary_tree_t *tree);
 
+/* Prototypes for 110-binary_tree_is_bst.c */
+int binary_tree_is_bst(const binary_tree_t *tree);
 
-/* Prototypes for 13-binary_tree_nodes.c */
+/* Prototypes for 111-bst_insert.c */
+bst_t *bst_insert(bst_t **tree, int value);
 
+/* Prototypes for 112-array_to_bst.c */
+bst_t *array_to_bst(int *array, size_t size);
 
-/* Prototypes for 13-binary_tree_nodes.c */
+/* Prototypes for 113-bst_search.c */
+bst_t *bst_search(const bst_t *tree, int value);
 
+/* Prototypes for 114-bst_remove.c */
+bst_t *bst_remove(bst_t *root, int value);
 
-/* Prototypes for 13-binary_tree_nodes.c */
+/* Prototypes for 120-binary_tree_is_avl.c */
+int binary_tree_is_avl(const binary_tree_t *tree);
 
+/* Prototypes for 121-avl_insert.c */
+avl_t *avl_insert(avl_t **tree, int value);
 
-/* Prototypes for 13-binary_tree_nodes.c */
+/* Prototypes for 122-array_to_avl.c */
+avl_t *array_to_avl(int *array, size_t size);
 
+/* Prototypes for 123-avl_remove.c */
+avl_t *avl_remove(avl_t *root, int value);
 
-/* Prototypes for 13-binary_tree_nodes.c */
+/* Prototypes for 124-sorted_array_to_avl.c */
+avl_t *sorted_array_to_avl(int *array, size_t size);
 
+/* Prototypes for 130-binary_tree_is_heap.c */
+int binary_tree_is_heap(const binary_tree_t *tree);
 
-/* Prototypes for 13-binary_tree_nodes.c */
+/* Prototypes for 131-heap_insert.c */
+heap_t *heap_insert(heap_t **root, int value);
 
+/* Prototypes for 132-array_to_heap.c */
+heap_t *array_to_heap(int *array, size_t size);
 
+/* Prototypes for 133-heap_extract.c */
+int heap_extract(heap_t **root);
 
-
-
-
-
-
+/* Prototypes for 134-heap_to_sorted_array.c */
+int *heap_to_sorted_array(heap_t *heap, size_t *size);
 
 #endif
-
