@@ -30,6 +30,19 @@ typedef struct binary_tree_s bst_t;
 typedef struct binary_tree_s avl_t;
 typedef struct binary_tree_s heap_t;
 
+/* Other includes and definitions */
+
+/**
+ * struct levelorder_queue_s - Structure for level-order traversal queue.
+ * @node: A pointer to a binary tree node.
+ * @next: A pointer to the next node in the queue.
+ */
+typedef struct levelorder_queue_s
+{
+    binary_tree_t *node;
+    struct levelorder_queue_s *next;
+} levelorder_queue_t;
+
 /* Prototypes for binary_tree_print.c */
 void binary_tree_print(const binary_tree_t *);
 
